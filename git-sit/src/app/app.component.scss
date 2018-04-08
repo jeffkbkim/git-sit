@@ -1,0 +1,16 @@
+@import '../sass/variables';
+@import '../sass/mixins';
+
+mat-toolbar {
+  margin-bottom: 40px;
+}
+
+.page {
+  margin: 0 40px;
+}
+
+.footer {
+  color: c(grey);
+  padding: 40px 0;
+  text-align: center;
+}

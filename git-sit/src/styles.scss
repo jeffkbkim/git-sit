@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+//@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+@import "~@angular/material/prebuilt-themes/indigo-pink";
+@import "sass/variables";
+@import "sass/mixins";
+@import "sass/shared";
+@import "sass/layout";
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+mat-toolbar .mat-raised-button {
+  color: #000;
+}
+
+.stage-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.stage-form-width {
+  width: 100%;
+}
+
+.browse-card {
+    margin-bottom: 20px;
+}
